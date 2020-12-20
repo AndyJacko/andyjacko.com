@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /backups/
+Disallow: /scripts/
+Sitemap: http://andyjacko.com/sitemap.xml
