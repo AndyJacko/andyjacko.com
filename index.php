@@ -15,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
     <link href="/scripts/css/style.css" rel="stylesheet" type="text/css">
     <script src="/scripts/js/prefixfree.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   
   <body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="70">
@@ -228,8 +227,7 @@
                   </div>
                 </div>
               </div>
-            </div>
-            
+            </div>            
           </div>
         </div>
       </div>
@@ -254,16 +252,13 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2><i class="fa fa-envelope-o"></i> Contact</h2>
-          <div class="spacer20"></div>
-          <?php if ($_GET["s"] == "1") { echo '<h1 class="text-success">Your Email Has Been Sent</h1><div class="spacer20"></div>'; } ?>
+          <div class="spacer20"></div>          
           <div id="contactwrap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22587.28470439786!2d-2.292745847546368!3d53.48283048718808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae0dfe455711%3A0x6df4febf58f5d816!2sSalford!5e0!3m2!1sen!2suk!4v1604345516570!5m2!1sen!2suk"></iframe>
           </div>
           <div class="spacer"></div>
           <p>Manchester, United Kingdom.</p>
-          <p>
-            <strong>Email: </strong>andy@andyjacko.com<br/>
-          </p>
+          <p><strong>Email: </strong>andy@andyjacko.com<br/></p>
         </div>
       </div>
     </section>
@@ -286,10 +281,10 @@
           </p>
         </div>
         <div class="col-lg-4">
-          <h1>&nbsp;</h1>
+          <h1>My Other Sites</h1>
           <hr>
           <p>
-            <!-- <a href="http://yoyo.andyjacko.com" target="_blank">YoYo Player</a><br/> -->
+            <a href="http://yoyo.andyjacko.com" target="_blank">YoYo Player</a><br/>
           </p>
         </div>
         <div class="col-lg-4">
