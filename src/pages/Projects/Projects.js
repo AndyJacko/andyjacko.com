@@ -68,7 +68,7 @@ const Projects = () => {
           <span>* You can't actually order a real burger, sorry.</span>
           <p>This was a project made during an Academind course.</p>
           <p>
-            Stack: MERN
+            Stack: FERN
             <br />
             Frontend: React + React Redux
             <br />
