@@ -68,11 +68,7 @@ const Projects = () => {
           <span>* You can't actually order a real burger, sorry.</span>
           <p>This was a project made during an Academind course.</p>
           <p>
-            Stack: FERN
-            <br />
             Frontend: React + React Redux
-            <br />
-            Backend: NodeJS + ExpressJS
             <br />
             Database: Google Firebase
           </p>
@@ -145,6 +141,8 @@ const Projects = () => {
             Frontend: HTML5 + CSS3 + Bootstrap
             <br />
             Backend: PHP
+            <br />
+            Database: MySQL
           </p>
         </ProjectItem>
       </ContentBox>
