@@ -38,7 +38,7 @@ const About = () => {
         </p>
         <p>
           I now create web applications using modern JavaScript: ES6-ES2020,
-          NodeJS, ExpressJS, ReactJS, NextJS, TypeScript and AngularJS using
+          NodeJS, ExpressJS, ReactJS, NextJS, TypeScript and Angular using
           PostgreSQL, MongoDB, Firebase and MySQL databases.
         </p>
         <p>

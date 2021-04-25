@@ -49,7 +49,7 @@ const LanguagesFrameworks = () => {
       <SkillItem name="ExpressJS" image={expressSkill} />
       <SkillItem name="ReactJS" image={reactSkill} />
       <SkillItem name="NextJS" image={nextSkill} />
-      <SkillItem name="AngularJS" image={angularSkill} />
+      <SkillItem name="Angular" image={angularSkill} />
       <SkillItem name="AJAX" image={ajaxSkill} />
       <SkillItem name="JSON" image={jsonSkill} />
 
