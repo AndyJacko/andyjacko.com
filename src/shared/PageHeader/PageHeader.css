@@ -1,0 +1,20 @@
+.HeaderContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+@media (min-width: 768px) {
+  .HeaderContainer {
+    width: 100%;
+  }
+}
+
+.FTLOC {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+  margin: 10px;
+}

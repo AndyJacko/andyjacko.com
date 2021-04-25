@@ -1,0 +1,8 @@
+.ProjectsBG {
+  background: radial-gradient(#350000 15%, transparent 16%) 0 0,
+    radial-gradient(#350000 15%, transparent 16%) 16px 16px,
+    radial-gradient(rgba(255, 255, 255, 0.2) 15%, transparent 20%) 0 2px,
+    radial-gradient(rgba(255, 255, 255, 0.2) 15%, transparent 20%) 16px 18px;
+  background-color: #000000;
+  background-size: 32px 32px;
+}

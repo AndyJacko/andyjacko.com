@@ -1,0 +1,22 @@
+.SkillsBG {
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #250000 25%,
+      transparent 25%,
+      transparent 75%,
+      #250000 75%,
+      #250000
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #250000 25%,
+      #000000 25%,
+      #000000 75%,
+      #250000 75%,
+      #250000
+    );
+  background-position: 0 0, 19px 19px;
+  background-size: 38px 38px;
+}

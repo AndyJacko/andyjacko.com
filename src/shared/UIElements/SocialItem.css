@@ -1,0 +1,11 @@
+.SocialItem {
+  display: inline-block;
+}
+
+.fa {
+  padding: 5px 10px;
+}
+
+.fa:hover {
+  color: #990000;
+}

@@ -1,0 +1,15 @@
+.skills {
+  width: 74px;
+  height: 74px;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.4;
+}
+
+.skills:hover {
+  opacity: 1;
+}
+
+.skills img {
+  width: 64px;
+}

@@ -1,0 +1,57 @@
+.AboutBG {
+  background: radial-gradient(
+        hsl(0, 100%, 7%) 4%,
+        hsl(0, 100%, 8%) 9%,
+        hsla(0, 100%, 20%, 0) 9%
+      )
+      0 0,
+    radial-gradient(
+        hsl(0, 100%, 7%) 4%,
+        hsl(0, 100%, 10%) 8%,
+        hsla(0, 100%, 20%, 0) 10%
+      )
+      50px 50px,
+    radial-gradient(hsla(0, 0%, 0%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+    radial-gradient(hsla(0, 0%, 0%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+    radial-gradient(rgb(0, 0, 0) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+    radial-gradient(rgb(24, 0, 0) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+    radial-gradient(hsla(0, 100%, 5%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+    radial-gradient(hsla(0, 100%, 5%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+    linear-gradient(
+        45deg,
+        hsla(0, 100%, 20%, 0) 49%,
+        hsla(0, 100%, 0%, 1) 50%,
+        hsla(0, 100%, 20%, 0) 70%
+      )
+      0 0,
+    linear-gradient(
+        -45deg,
+        hsla(0, 100%, 20%, 0) 49%,
+        hsla(0, 100%, 0%, 1) 50%,
+        hsla(0, 100%, 20%, 0) 70%
+      )
+      0 0;
+  background-color: #100;
+  background-size: 100px 100px;
+}
+
+.AboutContent {
+  background: url("../../assets/AndyJacko.png") no-repeat bottom right;
+  background-size: 100%;
+  padding: 0.5rem;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .AboutContent {
+    background-size: contain;
+  }
+}
